@@ -1,73 +1,518 @@
 <!DOCTYPE html>
 <html lang="zh-Hant-TW">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>淡江資工</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/aos.css">
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <div class="page-loader">
-        <div class="loader">
-            <div class="loader-dot"></div>
-            <div class="loader-dot"></div>
-            <div class="loader-dot"></div>
-            <div class="loader-dot"></div>
-            <div class="loader-dot"></div>
-            <div class="loader-dot"></div>
-        </div>
+      <div class="loader">
+        <div class="loader-dot"></div>
+        <div class="loader-dot"></div>
+        <div class="loader-dot"></div>
+        <div class="loader-dot"></div>
+        <div class="loader-dot"></div>
+        <div class="loader-dot"></div>
+      </div>
     </div>
-   
-    
+
     <header class="main-header">
-        <div class="main-header-logo">
-            <a href="./main.html"></a>
-        </div>
+      <div class="main-header-logo">
+        <a href="./main.html"></a>
+      </div>
 
-        <nav class="main-header-nav">
-            <ul class="main-header-nav-items">
-                <li class="main-header-nav-item text-font-notosanstc text-size-1p5vmin main-header-nav-item-current"><a href="#page-home">主要首頁</a></li>
-                <li class="main-header-nav-item text-font-notosanstc text-size-1p5vmin"><a href="#page-information">基本資料</a></li>
-                <li class="main-header-nav-item text-font-notosanstc text-size-1p5vmin"><a href="#page-experience">個人經歷</a></li>
-                <li class="main-header-nav-item text-font-notosanstc text-size-1p5vmin"><a href="#page-curriculum">在校課表</a></li>
-                <li class="main-header-nav-item text-font-notosanstc text-size-1p5vmin"><a href="#page-about">關於本站</a></li>
-            </ul>
-        </nav>
-
+      <nav class="main-header-nav">
+        <ul class="main-header-nav-items">
+          <li
+            class="main-header-nav-item text-font-notosanstc text-size-1p5vmin main-header-nav-item-current"
+          >
+            <a href="#page-home">主要首頁</a>
+          </li>
+          <li
+            class="main-header-nav-item text-font-notosanstc text-size-1p5vmin"
+          >
+            <a href="#page-information">基本資料</a>
+          </li>
+          <li
+            class="main-header-nav-item text-font-notosanstc text-size-1p5vmin"
+          >
+            <a href="#page-experience">個人經歷</a>
+          </li>
+          <li
+            class="main-header-nav-item text-font-notosanstc text-size-1p5vmin"
+          >
+            <a href="#page-curriculum">在校課表</a>
+          </li>
+          <li
+            class="main-header-nav-item text-font-notosanstc text-size-1p5vmin"
+          >
+            <a href="#page-about">關於本站</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
-   
-
-    
-
     <div id="page-home" class="page">
-        <div class="line"></div>
+      <div id="home-bg">
+        <div data-aos="fade-left" id="home-bg-line1"></div>
+        <div data-aos="fade-down" id="home-bg-line2"></div>
+        <div id="home-bg-line3"></div>
+        <div id="home-bg-line4"><p class="text-font-notosanstc text-size-0p8rem text-align-right text-color-d1d1d1">TKU CSIE</p></div>
+        <div id="home-bg-line5"><p class="text-font-notosanstc text-size-1rem text-color-d1d1d1">PROFESSOR</p></div>
+        <div id="home-bg-line6"></div>
+        <div id="home-bg-line7"><p class="text-font-notosanstc text-size-1rem text-color-d1d1d1">淡江資工</p></div>
+        <div id="home-bg-line8"></div>
+      </div>
+      <div id="home-title">
+        <div id="home-title-cn">
+          <h1 id="home-title-cn-1" class="text-font-notosanstc text-color-b5b5b4 text-size-8rem text-weight-700">郭</h1>
+          <h1 id="home-title-cn-2" class="text-font-notosanstc text-color-b5b5b4 text-size-8rem">經</h1>
+          <h1 id="home-title-cn-3" class="text-font-notosanstc text-color-b5b5b4 text-size-8rem">華</h1>
+        </div>
+        <div id="home-title-en">
+          <h2 id="home-title-en-1" class="text-font-notosanstc text-color-b5b5b4 text-size-1p5rem">KUO, CHIN-HWA</h2>
+        </div>
+      </div>
+      <div id="home-next">
+        <h6 id="home-next-cn" class="text-font-notosanstc text-color-b5b5b4 text-size-0p5rem text-weight-100"><a href="#page-information">下滑以查看</a></h6>
+      
+      </div>
     </div>
     <div id="page-information" class="page">
+      <div class="container">
         
+        <div data-aos="zoom-in-down" id="main-information-title" class="text-center">
+          <h1
+            id="main-information-title-cn"
+            class="text-font-notosanstc text-size-4vmin main-information-linspacing"
+          >
+            基本資料
+          </h1>
+          <h2
+            id="main-information-title-en"
+            class="text-font-notosanstc text-size-2vmin main-information-linspacing"
+          >
+            Information
+          </h2>
+        </div>
+       
+        <div id="information-content">
+          <div data-aos="flip-up"><img id="main-information-img" src="./img/hua.jpg"></div>
+          <div data-aos="fade-up" id="main-information-name">
+            <h1 id="main-information-name-cn" class="text-font-notosanstc text-weight-300 text-size-4vmin">郭經華</h1>
+            <h2 id="main-information-name-en" class="text-font-notosanstc text-weight-300 text-size-1p5vmin">KOU, CHIN-HWA</h2>
+          </div>
+          <div data-aos="fade-up" id="main-information-description">
+            <p class="text-font-notosanstc text-weight-300 text-size-2vmin">1994年畢業於美國聖母大學 電機博士。現任淡江大學資訊工程學系教授，除此之外，也兼任多項職位，例如：淡江大學資訊處資訊長、淡江大學數位語文研究中心
+              主任及中華民國數位學習學會理事長。郭經華教授，也曾任中華民國數位語言學會常務理事兼秘書長、台灣教育雲產學研聯盟執行長、淡江大學遠距教學發展組長以
+              及參與多年數位學習國家型計畫及籌組產學聯盟推動MOOCs計畫。其研究領域包含多媒體處理技術、Web 2.0應用於數位學習與生活領域、文字處理、影像視訊多項，
+              其中最為尤其的為Web-based系統之應用與整合。在其在淡江大學的期間，郭經華教授發表多篇研究研討論文、專案計畫、專書以及專利等等。</p>
+          </div>
+          <div data-aos="zoom-in-up" id="main-information-contact">
+            <h6 id="main-information-contact-title" class="text-font-notosanstc text-weight-300 text-size-2vmin">聯絡方式</h6>
+            <div id="main-information-contact-content">
+              <a id="main-information-contact-email" href="mailto:chkuo@mail.tku.edu.tw"><img src="./img/email.svg"></a>
+              <a id="main-information-contact-phone" href="tel:0226215656,3304"><img src="./img/phone.svg"></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <!--
+    <div id="page-experience" class="page page-center">
+      <div class="container">
+        
+        <div data-aos="zoom-in" id="main-experience-title" class="text-center">
+        <h1
+          id="main-experience-title-cn"
+          class="text-color-ffffff text-font-notosanstc text-size-2rem main-experience-linspacing"
+        >
+          個人經歷
+        </h1>
+        <h2
+          id="main-experience-title-en"
+          class="text-color-ffffff text-font-notosanstc text-size-1rem main-experience-linspacing"
+        >
+          Experience
+        </h2>
+        </div>
+        
+
+        <div id="main-experience-content">
+          
+          <div data-aos="fade-up" class="main-experience-timeline-item">
+            <span class="main-experience-timeline-item-point d-inline"></span>
+            <h2 class="main-experience-timeline-item-date text-font-notosanstc text-color-d1d1d1 text-weight-300 text-size-1rem d-inline">1994年2月</h2>
+            <h1 class="main-experience-timeline-item-event text-font-notosanstc text-color-d1d1d1 text-weight-500 text-size-1p5rem d-inline">美國聖母大學 電機博士</h1>
+            <img class="main-experience-timeline-item-img d-inline">
+          </div>
+          <div data-aos="fade-up" class="main-experience-timeline-item">
+            <span class="main-experience-timeline-item-point d-inline"></span>
+            <h2 class="main-experience-timeline-item-date text-font-notosanstc text-color-d1d1d1 text-weight-300 text-size-1rem d-inline">1995年8月</h2>
+            <h1 class="main-experience-timeline-item-event text-font-notosanstc text-color-d1d1d1 text-weight-500 text-size-1p5rem d-inline">淡江大學 資訊工程學系 副教授</h1>
+            <img class="main-experience-timeline-item-img d-inline">
+          </div>
+          <div data-aos="fade-up" class="main-experience-timeline-item">
+            <span class="main-experience-timeline-item-point d-inline"></span>
+            <h2 class="main-experience-timeline-item-date text-font-notosanstc text-color-d1d1d1 text-weight-300 text-size-1rem d-inline">2008年3月</h2>
+            <h1 class="main-experience-timeline-item-event text-font-notosanstc text-color-d1d1d1 text-weight-500 text-size-1p5rem d-inline">淡江大學 資訊工程學系 系主任</h1>
+                  </div>
+          <div data-aos="fade-up" class="main-experience-timeline-item">
+            <span class="main-experience-timeline-item-point d-inline"></span>
+            <h2 class="main-experience-timeline-item-date text-font-notosanstc text-color-d1d1d1 text-weight-300 text-size-1rem d-inline">2010年9月</h2>
+            <h1 class="main-experience-timeline-item-event text-font-notosanstc text-color-d1d1d1 text-weight-500 text-size-1p5rem d-inline">淡江大學 遠距教學發展組 組長</h1>
+                     </div>
+          <div data-aos="fade-up" class="main-experience-timeline-item">
+            <span class="main-experience-timeline-item-point d-inline"></span>
+            <h2 class="main-experience-timeline-item-date text-font-notosanstc text-color-d1d1d1 text-weight-300 text-size-1rem d-inline">現任</h2>
+            <div class="main-experience-timeline-item-events">
+              <h1 class="main-experience-timeline-item-event text-font-notosanstc text-color-d1d1d1 text-weight-500 text-size-1p5rem d-inline">淡江大學 資訊工程學系 教授</h1>
+              <h1 class="main-experience-timeline-item-event text-font-notosanstc text-color-d1d1d1 text-weight-500 text-size-1p5rem d-inline">淡江大學 資訊處 資訊長</h1>
+              <h1 class="main-experience-timeline-item-event text-font-notosanstc text-color-d1d1d1 text-weight-500 text-size-1p5rem d-inline">淡江大學 數位語文研究中心 主任</h1>
+              <h1 class="main-experience-timeline-item-event text-font-notosanstc text-color-d1d1d1 text-weight-500 text-size-1p5rem d-inline">中華民國數位學習學會 理事長</h1>
+            </div>
+          </div>
+          <div data-aos="fade-up" id="main-experience-timeline"></div>
+
+          <div class="main-experience-logo">
+            <a  href="http://www.tku.edu.tw/" target="_blank"><img id="main-experience-logo-tku" src="./img/tku.png"></a>
+            <a href="https://www.nd.edu/" target="_blank"><img id="main-experience-logo-nd" src="./img/nd.png"></a>
+            <a href="http://www.ael.org.tw/" target="_blank"><img id="main-experience-logo-ael" src="./img/ael.png"></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+     -->
+
     <div id="page-experience" class="page">
-        
+      <div class="container">
+        <div data-aos="zoom-in-down" id="main-experience-title" class="text-center">
+          <h1
+            id="main-experience-title-cn"
+            class="text-font-notosanstc text-color-ffffff text-size-4vmin main-experience-linspacing"
+          >
+            個人經歷
+          </h1>
+          <h2
+            id="main-experience-title-en"
+            class="text-font-notosanstc text-color-ffffff text-size-2vmin main-experience-linspacing"
+          >
+            Curriculum
+          </h2>
+        </div> 
+      </div>
     </div>
-    <div id="page-curriculum" class="page">
-        
+    <div id="page-curriculum" class="page page-center">
+      <div class="container">
+        <div data-aos="zoom-in-down" id="main-curriculum-title" class="text-center">
+          <h1
+            id="main-curriculum-title-cn"
+            class="text-font-notosanstc text-size-4vmin main-curriculum-linspacing"
+          >
+            在校課表
+          </h1>
+          <h2
+            id="main-curriculum-title-en"
+            class="text-font-notosanstc text-size-2vmin main-curriculum-linspacing"
+          >
+            Curriculum
+          </h2>
+        </div>  
+        <div data-aos="fade-down" id="main-curriculum-content" class="text-center">
+          <table id="main-curriculum-table">
+            <tr>
+              <th></th>
+              <th>星期一</th>
+              <th>星期二</th>
+              <th>星期三</th>
+              <th>星期四</th>
+              <th>星期五</th>
+              <th>星期六</th>
+              <th>星期日</th>
+            </tr>
+            <tr>
+              <th>第一節</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>第二節</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>第三節</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>第四節</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>第五節</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>第六節</th>
+              <td>
+                <a
+                  href="http://ap09.emis.tku.edu.tw/108_2/108_2_0809.PDF"
+                  target="_blank"
+                  >多媒體處理技術</a
+                >
+                <h5 class="text-size-2vmin">E201</h5>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>第七節</th>
+              <td rowspan="3">
+                <a
+                  href="http://ap09.emis.tku.edu.tw/108_2/108_2_9037.PDF"
+                  target="_blank"
+                  >多媒體系統設計</a
+                >
+                <h5 class="text-size-2vmin">E412</h5>
+              </td>
+              <td rowspan="2">
+                <a
+                  href="http://ap09.emis.tku.edu.tw/108_2/108_2_0809.PDF"
+                  target="_blank"
+                  >多媒體處理技術</a
+                >
+                <h5 class="text-size-2vmin">B428</h5>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>第八節</th>
+
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>第九節</th>
+
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>第十節</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+      </div>
     </div>
-    <div id="page-about" class="page">
-        
+    <div id="page-about" class="page page-center">
+      <div class="container">
+        <div data-aos="zoom-in-down" id="main-about-title" class="text-center">
+        <h1
+          id="main-about-title-cn"
+          class="text-color-ffffff text-font-notosanstc text-size-4vmin main-about-linspacing"
+        >
+          關於本站
+        </h1>
+        <h2
+          id="main-about-title-en"
+          class="text-color-ffffff text-font-notosanstc text-size-2vmin main-about-linspacing"
+        >
+          About
+        </h2>
+
+        </div>
+        <div class="main-about-developers">
+          <div data-aos="flip-right" class="main-about-developer">
+            <div class="main-about-developer-infor">
+              <img
+                class="main-about-developer-infor-img"
+                src="./img/hsiang.jpg"
+              />
+              <h1
+                class="main-about-developer-infor-name-cn text-color-b5b5b4 text-font-notosanstc text-weight-500 text-size-2rem text-center"
+              >
+                張智翔
+              </h1>
+              <h2
+                class="main-about-developer-infor-name-en  text-color-b5b5b4 text-font-notosanstc text-weight-300 text-size-0p8rem text-center main-about-developer-linespacing"
+              >
+                CHIH HSIANG, CHANG
+              </h2>
+              <h3
+                class="main-about-developer-infor-education text-color-b5b5b4 text-font-notosanstc text-weight-300 text-size-0p8rem text-center"
+                >
+                淡江大學 資訊工程學系 學士班
+             </h3>
+             <p class="main-about-developer-infor-introduction text-color-b5b5b4 text-font-notosanstc text-weight-300 text-size-0p8rem text-center">
+                一名正在往夢想努力邁進的大學生，目前就讀於淡江大學資訊工程學系，夢想為努力成為一位程式設計師，設計出一軟體能夠
+             </p>
+            </div>
+            <div class="main-about-developer-social">
+              <h6
+                class="text-color-b5b5b4 text-font-notosanstc text-weight-300 text-size-1rem text-center"
+              >
+                聯絡我
+              </h6>
+              <div class="main-about-developer-social-items">
+                <a href="mailto:hew12233@gms.tku.edu.tw"
+                  ><img
+                    class="main-about-developer-social-items-item"
+                    src="./img/email.png"
+                /></a>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100009196211039"
+                  target="_blank"
+                  ><img
+                    class="main-about-developer-social-items-item"
+                    src="./img/facebook.png"
+                /></a>
+                <a
+                  href="https://instagram.com/_.flyinthesky._?igshid=2okyco10ce3n"
+                  target="_blank"
+                  ><img
+                    class="main-about-developer-social-items-item"
+                    src="./img/instagram.png"
+                /></a>
+
+                <a href="https://ppt.cc/fEEBIx" target="_blank"
+                  ><img
+                    class="main-about-developer-social-items-item"
+                    src="./img/youtube.png"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div data-aos="flip-right" class="main-about-developer">
+            <div class="main-about-developer-infor">
+              <img
+                class="main-about-developer-infor-img"
+                src="./img/chen.jpg"
+              />
+              <h1
+                class="main-about-developer-infor-name-cn text-color-b5b5b4 text-font-notosanstc text-weight-500 text-size-2rem text-center"
+              >
+                陳佳辰
+              </h1>
+              <h2
+                class="main-about-developer-infor-name-en  text-color-b5b5b4 text-font-notosanstc text-weight-300 text-size-0p8rem text-center main-about-developer-linespacing"
+              >
+                JIA CHEN, CHEN
+              </h2>
+              <h3
+              class="main-about-developer-infor-education text-color-b5b5b4 text-font-notosanstc text-weight-300 text-size-0p8rem text-center"
+              >
+              淡江大學 資訊管理學系 學士班
+             </h3>
+             <p class="main-about-developer-infor-introduction text-color-b5b5b4 text-font-notosanstc text-weight-300 text-size-0p8rem text-center">
+              想東西填滿
+             </p>
+            </div>
+            <div class="main-about-developer-social">
+              <h6
+                class="text-color-b5b5b4 text-font-notosanstc text-weight-300 text-size-1rem text-center"
+              >
+                聯絡我
+              </h6>
+              <div class="main-about-developer-social-items">
+                <a href="mailto:h194420kk2@gmail.com"
+                  ><img
+                    class="main-about-developer-social-items-item"
+                    src="./img/email.png"
+                /></a>
+                <a href="javascript:void(0)" target="_blank"
+                  ><img
+                    class="main-about-developer-social-items-item"
+                    src="./img/facebook.png"
+                /></a>
+                <a href="javascript:void(0)" target="_blank"
+                  ><img
+                    class="main-about-developer-social-items-item"
+                    src="./img/instagram.png"
+                /></a>
+                <a href="javascript:void(0)" target="_blank"
+                  ><img
+                    class="main-about-developer-social-items-item"
+                    src="./img/youtube.png"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <footer>
-        
+      <p id="footer-copyright" class="text-font-notosanstc text-center text-color-b5b5b4">
+        版權所有 @ 張智翔 陳佳辰
+      </p>
+      <p id="footer-infor" class="text-font-notosanstc text-center text-color-b5b5b4">
+        淡江大學 02-26215656 251新北市淡水區英專路151號
+      </p>
     </footer>
-    
 
-
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/popper.min.js"></script>
-    <script src="./js/jquery-3.4.1.min.js"></script>
-    <script src="./js/anime.min.js"></script>
-    <script src="./js/interaction-main.js"></script>.
-    <script src="./js/share.js"></script>
-</body>
+    <script src="./lib/jquery-3.4.1.min.js"></script>
+    <script src="./lib/bootstrap.min.js"></script>
+    <script src="./lib/popper.min.js"></script>
+    <script src="./lib/anime.min.js"></script>
+    <script src="./lib/aos.js"></script>
+    <script src="./js/anim-main.js"></script>
+    <script src="./js/interaction-main.js"></script>
+    <script src="./js/common.js"></script>
+  </body>
 </html>
