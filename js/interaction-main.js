@@ -90,3 +90,10 @@ function experienceNavItemMouseOver(event){
   
   
 }
+
+$('#footer-subscribe-submit').click(function(){
+  let email = $('#footer-subscribe-email').val().trim()
+  if(email!=''){
+    alert(email+' 已訂閱');
+  }
+})
